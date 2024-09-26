@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="Página oficial de la aclamada serie Un show más | UOOOOOOOOOOOOOOOOOOOOOOOO">
+<title>UN SHOW MÁS | Página oficial</title>
+<link rel="shortcut icon" href="g_index/favicon - logo_Mesa de trabajo 1.png">
+<link rel="stylesheet" href="estilos_css/hoja1.css">
+
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--Font Awesome-->
+	
+<!--Menu desplegable-->
+<link rel="stylesheet" href="css-menu/css/style.css">
+<script src="css-menu/js/script.js"></script>
+<!--Menu desplegable-->
+
+<!--Skitter carrusel-->
+<link rel="stylesheet" href="skitter-master/dist/skitter.css">
+<script src="skitter-master/examples/js/jquery-2.1.1.min.js"></script>
+<script src="skitter-master/examples/js/jquery.easing.1.3.js"></script>
+<script src="skitter-master/dist/jquery.skitter.min.js"></script>
+<!--Skitter carrusel-->
+
+<!--Galeria Lytebox-->
+<link rel="stylesheet" href="lytebox_v5.5/lytebox.css">
+<script src="lytebox_v5.5/lytebox.js"></script>
+<!--Galeria Lytebox-->
+
+<!-- Init Skitter -->
+ <script type="text/javascript" language="javascript">
+    $(document).ready(function() {
+      $('.skitter-large').skitter({
+		  navigation: true,
+		  theme: 'round',
+          dots:false,
+		  
+		 responsive: {
+          small: {
+            animation: 'fade',
+            max_width: 768,
+            suffix: '-small'
+          },
+          medium: {
+            animation: 'directionRight',
+            max_width: 1024,
+            suffix: '-medium'
+          }
+        }
+      });
+    });
+  </script>
+<!-- Init Skitter -->
+</head>
+
+<body>
+	<div id="tope"></div>
+	<header>
+		<img class="logo_de_un_show_mas" src="g_index/favicon - logo grande-02.png" width="400" alt=""/>
+		<img class="un_show_mas" src="g_index/un_show_mas.png" width="700" alt=""/>
+	</header>
+	
+	<nav id="menu">
+  		<input type="checkbox" id="responsive-menu" onclick="updatemenu()"><label></label>
+  		<ul>
+    		<li><a href="index.html">Inicio</a></li>
+    		<li><a class="dropdown-arrow" href="productos.html">Productos</a>
+      			<ul class="sub-menus">
+        			<li><a href="#">Juguetes</a></li>
+        			<li><a href="#">Ropa</a></li>
+        			<li><a href="#">Cosmeticos</a></li>
+      			</ul>
+    		</li>
+    		<li><a href="capitulos.html">Capítulos</a></li>
+    		<li><a class="dropdown-arrow" href="streaming.html">Streaming</a>
+      			<ul class="sub-menus">
+        			<li><a href="#">Netflix</a></li>
+        			<li><a href="#">Max</a></li>
+        			<li><a href="#">Prime video</a></li>
+      			</ul>
+    		</li>
+    		<li><a href="#">Contacto</a></li>
+  		</ul>
+	</nav>
+	
+	<main>
+		<div class="degradado_1"></div>
+		
+		<article>
+			<iframe id="cancion" width="1000" height="608" src="https://www.youtube.com/embed/2ePJtjHXY3M?si=OOZ9riRFG64tIGCA&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<div class="contenido_video">
+				<h1>Mordecái y los Rigby's</h1>
+				<h2>UN SHOW MÁS</h2>
+				<p>Mordecai y los Rigby's es el duodécimo episodio y último de la Primera Temporada de Un Show Más. En este episodio, Mordecai y Rigby del futuro vienen a ayudar a Mordecai y Rigby a practicar para una noche de micrófono abierto. La canción, "Party Tonight" escrita por Sean Szeles y la popular banda Mordecai y Los Rigbys es utilizada durante el episodio. Este episodio ha recibido elogios de la crítica por su trama y la canción.</p>
+				<button>Ver más</button>
+			</div>
+		</article>
+		
+		<div class="degradado_2"></div>
+		<div class="degradado_3"></div>
+		
+		<div id="color_carrusel">
+		<!--CARRUCEL-->
+		<div id="content">
+      		<div class="skitter-large-box">
+        		<div class="skitter skitter-large with-dots">
+          			<ul>
+            			<li><a href="#cube"><img src="g_carrusel/carrusel1.jpg" class="circles" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#see-more" class="btn btn-small btn-yellow">VER MÁS</a></p></div></li>
+            			<li><a href="#cubeRandom"><img src="g_carrusel/carrusel2.jpg" class="circlesInside" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore officiis voluptatum reprehenderit vitae amet beatae dolorem labore dignissimos nesciunt. Harum, blanditiis suscipit beatae unde id non, necessitatibus praesentium nisi quidem. <a href="#" class="btn btn-small btn-yellow">VER MÁS</a></p></div></li>
+            			<li><a href="#block"><img src="g_carrusel/carrusel3.jpg" class="circlesRotate" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="btn btn-small btn-yellow">VER MÁS</a></p></div></li>
+            			<li><a href="#cubeStop"><img src="g_carrusel/carrusel4.jpg" class="cube" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eos nihil corrupti inventore id culpa repellat molestiae quam at molestias. <a href="#" class="btn btn-small btn-yellow">VER MÁS</a></p></div></li>
+						<li><a href="#block"><img src="g_carrusel/carrusel5.jpg" class="circlesRotate" /></a><div class="label_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" class="btn btn-small btn-yellow">VER MÁS</a></p></div></li>
+          			</ul>
+        		</div>
+      		</div>
+    	</div>
+		<!--CARRUCEL-->
+		</div><!--color_carrusel-->
+			
+		<div class="degradado_4"></div>
+		<div class="degradado_5"></div>
+		
+		<section>
+			<h2>Personajes</h2>
+			<div class="personaje1">
+				<div class="descripcion1">
+					<h3>Rigby</h3>
+					<p>Rigby (cuyo nombre real era Rigbone) es uno de los personajes principales de la serie Un Show Más. Es un mapache castaño de unos 28 años que trabaja como Jardinero del Parque con su mejor amigo, Mordecai. Se le conoce por ser un mapache flojo, irresponsable e inmaduro.</p>
+					<button>Ver más</button>
+				</div>
+		    	<img src="g_index/rigby.png" width="800" alt=""/>
+			</div>
+		 	<div class="personaje2">
+				<img src="g_index/mordecai.png" width="800" alt=""/>
+				<div class="descripcion2">
+					<h3>Mordecai</h3>
+					<p>Mordecai es un azulejo. Hizo su primera aparición oficial en la serie de Cartoon Network en el episodio piloto. En la situación del doblaje, Mordecai es dada de voz por el mismo creador de Un Show Más, J.G. Quintel. en Latinoamérica es doblado por el actor Arturo Cataño.</p>
+					<button>Ver más</button>
+				</div>
+			</div>
+		</section>
+		
+		<div class="degradado_6"></div>
+		<div class="degradado_7"></div>
+		
+		<aside class="separador imagen_aside">
+	    	<h3>Un show más</h3>
+			<div class="donde_ver">
+				<a href="https://www.max.com/co/es/shows/un-show-mas/1ce7cec4-c452-465a-89f6-0f50e613f9d0?utm_source=universal_search" target="_blank"><img class="max" src="g_index/max-icon-filled-256.png" width="100" alt=""/></a>
+				<a href="https://www.netflix.com/co/title/70221402?source=35" target="_blank"><img class="net" src="g_index/netflix-icon-filled-256.png" width="100" alt=""/></a>
+				<a href="https://www.primevideo.com/dp/amzn1.dv.gti.fa510fff-d799-4a77-9f98-75ba1374d830?autoplay=0&ref_=atv_cf_strg_wb" target="_blank"><img class="pri" src="g_index/amazon-prime-video-icon-filled-256.png" width="100" alt=""/></a>
+			</div>
+		</aside>
+		
+		<div class="degradado_8"></div>
+		<div class="degradado_9"></div>
+		
+	</main>
+	<footer>
+		<div class="redessss">
+			<i class="fa-solid fa-square-envelope"></i>
+			<i class="fa-brands fa-square-instagram"></i>
+			<i class="fa-brands fa-square-pinterest"></i>
+			<i class="fa-brands fa-square-x-twitter"></i>
+		</div>
+		<div class="logo_cn">
+   	    	<img src="g_index/CARTOON_NETWORK_logo.png" width="180" alt=""/>
+		</div>
+		<div class="navegacion">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="capitulos.html">Capítulos</a></li>
+				<li><a href="streaming.html">Streaming</a></li>
+				<li><a href="">Contacto</a></li>
+			</ul>
+		</div>
+	</footer>
+	<div class="wa">
+		<a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+	</div>
+	<div class="para_arriba">
+		<a href="#tope"><i class="fa-solid fa-chevron-up"></i></a>
+	</div>
+</body>
+</html>

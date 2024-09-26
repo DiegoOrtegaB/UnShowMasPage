@@ -1,0 +1,879 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background-color: white;
+}
+header{
+	background-image: url("../g_index/ff5b62995b30a47e867080676e60951c.jpg");
+	background-position: center;
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	padding: 50px;
+}
+.un_show_mas{
+	margin: auto;
+	transition: 0.5s all ease-in-out;
+}
+.un_show_mas:hover{
+	transform: scale(1.1);
+}
+.logo_de_un_show_mas{
+	margin: auto 0;
+}
+
+/*ACA COMIENZA degradado_1*/
+
+.degradado_1{
+	height: 25px;
+	background-image: -webkit-linear-gradient(270deg,rgba(94,0,108,1.00) 0%,rgba(218,165,32,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(94,0,108,1.00) 0%,rgba(218,165,32,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(94,0,108,1.00) 0%,rgba(218,165,32,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(94,0,108,1.00) 0%,rgba(218,165,32,1.00) 100%);
+}
+
+/*ACA COMIENZA ARTICLE*/
+
+article{
+	display: flex;
+	width: 100%;
+	height: 608px;
+	background-color: goldenrod;
+	justify-content: center;
+}
+#cancion{
+	border-radius: 20px 0 0 20px;
+}
+.contenido_video{
+	text-align: center;
+	width: 35%;
+	padding: 30px;
+	background-color: honeydew;
+	border-radius: 0 20px 20px 0;
+}
+h1{
+	font-family: "Permanent Marker", cursive;
+	margin: 50px auto;
+	font-size: 40px;
+}
+.contenido_video h2{
+	font-family: "Nerko One", cursive;
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+.contenido_video p{
+	margin-bottom: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.contenido_video button{
+	border: none;
+	background-color: blueviolet;
+	padding: 15px 35px;
+	color: white;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: "Concert One", sans-serif;
+	text-transform: uppercase;
+	transition: 0.5s all ease-in-out;
+}
+.contenido_video button:hover{
+	background-color: white;
+	color: #5E006C;
+	-webkit-box-shadow: 0px 0px 5px 0px #5E006C;
+	box-shadow: 0px 0px 15px 0px #5E006C;
+}
+
+/*ACA COMIENZA degradado_2*/
+
+.degradado_2{
+	height: 25px;
+	background-image: -webkit-linear-gradient(90deg,rgba(94,0,108,1.00) 0%,rgba(218,165,32,1.00) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(94,0,108,1.00) 0%,rgba(218,165,32,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(94,0,108,1.00) 0%,rgba(218,165,32,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(94,0,108,1.00) 0%,rgba(218,165,32,1.00) 100%);
+}
+
+/*ACA COMIENZA Degradado 3 */
+
+.degradado_3{
+	height: 15px;
+	background-image: -webkit-linear-gradient(270deg,rgba(94,0,108,1.00) 43.52%,rgba(141,0,76,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(94,0,108,1.00) 43.52%,rgba(141,0,76,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(94,0,108,1.00) 43.52%,rgba(141,0,76,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(94,0,108,1.00) 43.52%,rgba(141,0,76,1.00) 100%);
+}
+
+/*ACA COMIENZA color carrusel*/
+
+#color_carrusel{
+	background: radial-gradient(red, #5E006C);
+	padding: 15px;
+}
+.skitter img{
+	border-radius: 15px;
+}
+
+/*ACA COMIENZA Degradado 4 */
+
+.degradado_4{
+	height: 15px;
+	background-image: -webkit-linear-gradient(90deg,rgba(200,102,105,1.00) 0%,rgba(141,0,76,1.00) 70.99%);
+	background-image: -moz-linear-gradient(90deg,rgba(200,102,105,1.00) 0%,rgba(141,0,76,1.00) 70.99%);
+	background-image: -o-linear-gradient(90deg,rgba(200,102,105,1.00) 0%,rgba(141,0,76,1.00) 70.99%);
+	background-image: linear-gradient(0deg,rgba(200,102,105,1.00) 0%,rgba(141,0,76,1.00) 70.99%);
+}
+
+/*ACA COMIENZA Degradado 5 */
+
+.degradado_5{
+	height: 15px;
+	background-image: -webkit-linear-gradient(270deg,rgba(141,0,76,1.00) 0%,rgba(200,102,105,1.00) 0%);
+	background-image: -moz-linear-gradient(270deg,rgba(141,0,76,1.00) 0%,rgba(200,102,105,1.00) 0%);
+	background-image: -o-linear-gradient(270deg,rgba(141,0,76,1.00) 0%,rgba(200,102,105,1.00) 0%);
+	background-image: linear-gradient(180deg,rgba(141,0,76,1.00) 0%,rgba(200,102,105,1.00) 0%);
+}
+
+/*ACA COMIENZA section */
+
+section{
+	background-image: url("../g_index/el_parque.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 30px;
+}
+section h2{
+	margin: auto;
+	width: 40%;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Nerko One", cursive;
+	font-size: 70px;
+	margin-bottom: 50px;
+	text-shadow: 0px 0px 30px rgba(31,1,2,1.00);
+	transition: 0.5s all ease-in-out;
+}
+section h2:hover{
+	font-size: 80px;
+}
+.personaje1{
+	display: flex;
+	width: 80%;
+	margin: auto;
+	align-items: center;
+}
+.descripcion1{
+	background-color: rgba(46,7,6,0.80);
+	text-align: center;
+	color: white;
+	padding: 20px;
+	height: 400px;
+	border-radius: 22px;
+	transition: 0.2s all ease-in-out;
+}
+.descripcion1:hover{
+	-webkit-box-shadow: 0px 0px 15px 0px #FFFFFF;
+	box-shadow: 0px 0px 15px 0px #FFFFFF;
+}
+.descripcion1 h3{
+	color: white;
+	font-family: "Nerko One", cursive;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 30px auto;
+}
+.descripcion1 p{
+	font-size: 17px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.descripcion1 button{
+	margin: 30px auto;
+	padding: 20px;
+	border: none;
+	border-radius: 15px;
+	font-size: 20px;
+	font-family: "Nerko One", cursive;
+	text-transform: uppercase;
+	transition: 0.2s all ease-in-out;
+}
+.descripcion1 button:hover{
+	color: white;
+	background-color: rgba(46,7,6,0.95);
+	-webkit-box-shadow: 0px 0px 10px 0px #FFFFFF;
+	box-shadow: 0px 0px 10px 0px #FFFFFF;
+}
+.personaje2{
+	display: flex;
+	width: 80%;
+	margin: auto;
+	align-items: center;
+}
+.descripcion2{
+	background-color: rgba(46,7,6,0.95);
+	text-align: center;
+	color: white;
+	padding: 20px;
+	height: 400px;
+	border-radius: 22px;
+	transition: 0.2s all ease-in-out;
+}
+.descripcion2:hover{
+	-webkit-box-shadow: 0px 0px 15px 0px #FFFFFF;
+	box-shadow: 0px 0px 15px 0px #FFFFFF;
+}
+.descripcion2 h3{
+	color: white;
+	font-family: "Nerko One", cursive;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 30px auto;
+}
+.descripcion2 p{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-shadow: 0px 0px 8px rgba(0,0,0,1.00);
+}
+.descripcion2 button{
+	margin: 30px auto;
+	padding: 20px;
+	border: none;
+	border-radius: 15px;
+	font-size: 20px;
+	font-family: "Nerko One", cursive;
+	text-transform: uppercase;
+	transition: 0.2s all ease-in-out;
+}
+.descripcion2 button:hover{
+	color: white;
+	background-color: rgba(46,7,6,0.95);
+	-webkit-box-shadow: 0px 0px 10px 0px #FFFFFF;
+	box-shadow: 0px 0px 10px 0px #FFFFFF;
+}
+
+/*ACA COMIENZA aside */
+
+.separador{
+    padding: 100px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.imagen_aside{
+	background-image: url("../g_index/caratula.jpeg");
+}
+aside h3{
+	font-size: 65px;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 0px 10px #000000;
+	text-transform: uppercase;
+	font-family: "Nerko One", cursive;
+}
+.donde_ver{
+	display: flex;
+	margin: auto;
+	width: 50%;
+	justify-content: center;
+}
+.donde_ver img{
+	display: block;
+	margin: 16px 16px;
+	border-radius: 20px;
+	transition: 0.2s all ease-in-out;
+}
+.donde_ver img:hover{
+	transform: scale(1.2)
+}
+.max:hover{
+	-webkit-box-shadow: 0px 0px 30px 0px #00026B;
+	box-shadow: 0px 0px 30px 0px #00026B;
+}
+.net:hover{
+	-webkit-box-shadow: 0px 0px 30px 0px #800001;
+	box-shadow: 0px 0px 30px 0px #800001;
+}
+.pri:hover{
+	-webkit-box-shadow: 0px 0px 30px 0px #0578FF;
+	box-shadow: 0px 0px 30px 0px #0578FF;
+}
+
+/*ACA COMIENZA footer */
+
+footer{
+	background-color: goldenrod;
+	padding: 15px 30px;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.redessss{
+	width: 33%;
+	text-align: center;
+}
+.redessss i{
+	font-size: 40px;
+	margin: auto 10px;
+	color: black;
+	transition: 0.2s all ease-in-out;
+}
+.redessss i:hover{
+	color: white;
+	transform: scale(1.4);
+	text-shadow: 2px 2px 2px black;
+}
+.logo_cn{
+	width: 33%;
+}
+.logo_cn img{
+	display: block;
+	margin: auto;
+}
+.navegacion{
+	width: 33%;
+}
+.navegacion ul{
+	list-style-type: none;
+	text-align: center;
+	line-height: 22px;
+}
+.navegacion a{
+	color: black;
+	font-size: 20px;
+	font-family: "Concert One", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.2s all ease-in-out;
+}
+.navegacion a:hover{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+/*ACA COMIENZA 6 */
+
+.degradado_6{
+	height: 15px;
+	background-image: -webkit-linear-gradient(270deg,rgba(218,136,76,0.91) 35.23%,rgba(100,211,2,0.76) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(218,136,76,0.91) 35.23%,rgba(100,211,2,0.76) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(218,136,76,0.91) 35.23%,rgba(100,211,2,0.76) 100%);
+	background-image: linear-gradient(180deg,rgba(218,136,76,0.91) 35.23%,rgba(100,211,2,0.76) 100%);
+}
+
+/*ACA COMIENZA 7 */
+
+.degradado_7{
+	height: 15px;
+	background-image: -webkit-linear-gradient(270deg,rgba(218,136,76,1.00) 0%,rgba(100,211,2,0.76) 0%);
+	background-image: -moz-linear-gradient(270deg,rgba(218,136,76,1.00) 0%,rgba(100,211,2,0.76) 0%);
+	background-image: -o-linear-gradient(270deg,rgba(218,136,76,1.00) 0%,rgba(100,211,2,0.76) 0%);
+	background-image: linear-gradient(180deg,rgba(218,136,76,1.00) 0%,rgba(100,211,2,0.76) 0%);
+}
+
+/*ACA COMIENZA 8 */
+
+.degradado_8{
+	height: 15px;
+	background-image: -webkit-linear-gradient(270deg,rgba(218,136,76,1.00) 0%,rgba(100,211,2,0.76) 0%);
+	background-image: -moz-linear-gradient(270deg,rgba(218,136,76,1.00) 0%,rgba(100,211,2,0.76) 0%);
+	background-image: -o-linear-gradient(270deg,rgba(218,136,76,1.00) 0%,rgba(100,211,2,0.76) 0%);
+	background-image: linear-gradient(180deg,rgba(218,136,76,1.00) 0%,rgba(100,211,2,0.76) 0%);
+}
+
+/*ACA COMIENZA 9 */
+
+.degradado_9{
+	height: 15px;
+	background-image: -webkit-linear-gradient(90deg,rgba(218,165,32,1.00) 35.23%,rgba(100,211,2,0.76) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(218,165,32,1.00) 35.23%,rgba(100,211,2,0.76) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(218,165,32,1.00) 35.23%,rgba(100,211,2,0.76) 100%);
+	background-image: linear-gradient(0deg,rgba(218,165,32,1.00) 35.23%,rgba(100,211,2,0.76) 100%);
+}
+
+/*ACA COMIENZA wa */
+
+.wa{
+	font-size: 40px;
+	width: 100px;
+	padding: 10px;
+	background-color: #5E006C;
+	position: fixed;
+	right: -30px;
+	bottom: 15%;
+	z-index: 99;
+	border-radius: 15px 0 0 15px;
+	transition: 0.5s all ease-in-out;
+}
+.wa:hover{
+	right: 0px;
+	-webkit-box-shadow: 0px 0px 10px 0px #DB3FFF;
+	box-shadow: 0px 0px 10px 0px #DB3FFF;
+}
+.wa i{
+	margin: auto 9px;
+	transition: 0.5s all ease-in-out;
+}
+.wa i:hover{
+	transform: scale(1.2);
+}
+.wa a{
+	color: white;
+}
+.wa a:hover{
+	text-shadow: 0px 0px 8px #14B549;
+}
+
+/*ACA COMIENZA para arriba */
+
+.para_arriba{
+	font-size: 15px;
+	padding: 8px;
+	background-color: #5E006C;
+	position: fixed;
+	right: 14px;
+	bottom: 8%;
+	z-index: 98;
+	border-radius: 12px 12px 12px 12px;
+	transition: 0.5s all cubic-bezier(0,2.08,1,-0.87);
+}
+.para_arriba:hover{
+	-webkit-box-shadow: 0px 0px 10px 0px #DB3FFF;
+	box-shadow: 0px 0px 10px 0px #DB3FFF;
+	background-color: white;
+}
+.para_arriba i{
+	color: white;
+	transition: 0.5s all cubic-bezier(0,2.08,1,-0.87);
+}
+.para_arriba i:hover{
+	color: #5E006C;
+}
+.para_arriba a:hover{
+	text-shadow: 0px 0px 10px #DB3FFF;
+}
+
+/*ACA COMIENZA migas*/
+
+.migas{
+	display: flex;
+	align-content: center;
+	padding: 8px 11%;
+	background-color: #DAA520;
+}
+.migas a{
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Concert One", sans-serif;
+	transition: 0.2s all ease-in-out;
+}
+.migas a:hover{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+.migas p{
+	font-size: 18px;
+	color: black;
+	text-transform: uppercase;
+	font-family: "Concert One", sans-serif;
+	margin-left: 7px;
+}
+
+/*ACA COMIENZA Separador - Internas*/
+
+.cont_internas{
+	background-color: white;
+}
+#banner_internas{
+	background-image: url("../g_internas/banner_internas.jpeg");
+	text-align: center;
+}
+#banner_internas h2{
+	font-family: "Nerko One", cursive;
+	font-size: 100px;
+	color: black;
+	text-shadow: 4px 0px 1px white;
+	text-transform: uppercase;
+}
+.separador_internas{
+    padding: 50px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*ACA COMIENZA Productos - Interna*/
+
+.juguetes{
+	background: radial-gradient(#DAA520 10%, #5E006C 80%);
+	padding: 30px;
+	text-align: center;
+}
+h3{
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Concert One", sans-serif;
+	margin: 20px auto;
+	text-shadow: 2px 2px 2px #000000;
+}
+.img_jug{
+	margin: 30px auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.cajita{
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	height: 100%;
+	border-radius: 30px;
+	margin: 16px 30px;
+	padding: 20px;
+	transition: 0.2s all ease-in-out;
+}
+.cajita:hover{
+	-webkit-box-shadow: 0px 0px 4px 2px #180226;
+	box-shadow: 0px 0px 4px 2px #180226;
+}
+.cajita img{
+	border-radius: 30px;
+	margin-bottom: 15px;
+	width: 180px;
+	height: 180px;
+	transition: 0.2s all ease-in-out;
+}
+.cajita img:hover{
+	transform: scale(0.9);
+}
+.cajita h4{
+	text-transform: uppercase;
+	font-family: "Concert One", sans-serif;
+	font-size: 20px;
+	margin-top: 15px;
+	color: #1E0422;
+}
+.cajita h5{
+	text-transform: uppercase;
+	font-family: "Concert One", sans-serif;
+	font-size: 18px;
+	margin-top: 15px;
+	color: #1E0422;
+}
+.cajita button{
+	margin-top: 15px;
+	font-size: 15px;
+	font-family: "Nerko One", cursive;
+	border-style: none;
+	background-color: #18001B;
+	color: white;
+	padding: 14px;
+	border-radius: 12px;
+	transition: 0.2s all ease-in-out;
+}
+.cajita button:hover{
+	background-color: white;
+	color: #2F0036;
+	-webkit-box-shadow: 0px 0px 5px 3px #18001B;
+	box-shadow: 0px 0px 5px 3px #18001B;
+}
+
+/*ACA COMIENZA Capitulos - Interna*/
+
+.divicion_caps{
+	height: 38px;
+	width: 100%;
+	background-color: #DAA520;
+}
+.capitulos{
+	background-image: url("../g_index/ff5b62995b30a47e867080676e60951c.jpg");
+	padding: 30px;
+}
+.temporada{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.temporada h6{
+	font-size: 32px;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Concert One", sans-serif;
+	text-shadow: 0px 0px 20px #000000;
+}
+.temporada_1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.episodio{
+	height: 300px;
+	width: 20%;
+	margin: 22px 10px;
+	padding: 5px;
+	background-color: #5E006C;
+	transition: 0.2s all ease-in-out;
+}
+.episodio:hover{
+	-webkit-box-shadow: 0px 0px 10px 3px #E4E4E4;
+	box-shadow: 0px 0px 10px 3px #E4E4E4;
+}
+.episodio img{
+ 	width: 100%;
+	margin-bottom: 5px;
+}
+.cap_time{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.cap_time h5{
+	color: white;
+	font-size: 15px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.cap_time h6{
+	color: white;
+	font-size: 14px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.episodio p{
+	font-size: 13px;
+	color: white;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+/*ACA COMIENZA STREAMING - Interna*/
+
+#netflix{
+	width: 100%;
+	height: 1080px;
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url("../g_streaming/streaming4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#netflix h5{
+	font-size: 84px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Concert One", sans-serif;
+	text-shadow: 0px 4px 4px #000000;
+	margin-bottom: 30px;
+	transition: 0.5s all ease-in-out;
+}
+#netflix h5:hover{
+	transform: scale(1.2);
+	color: red;
+	text-shadow: 0px 0px 10px #000000;
+}
+#netflix img{
+	margin-bottom: 30px;
+}
+#netflix p{
+	padding: 20px;
+	width: 300px;
+	background-color: rgba(0,0,0,0.91);
+	color: white;
+	text-align: center;
+	border-radius: 30px;
+	margin-bottom: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	transition: 0.5s all ease-in-out;
+}
+#netflix p:hover{
+	-webkit-box-shadow: 0px 0px 14px 2px rgba(255,255,255,1.00);
+	box-shadow: 0px 0px 14px 2px rgba(255,255,255,1.00);
+	transform: scale(1.1);
+}
+#netflix button{
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 30px;
+	background-color: black;
+	font-family: "Concert One", sans-serif;
+	font-size: 32px;
+	border-style: none;
+	transition: 0.5s all ease-in-out;
+}
+#netflix button:hover{
+	-webkit-box-shadow: 0px 0px 20px 2px rgba(255,0,4,1.00);
+	box-shadow: 0px 0px 20px 2px rgba(255,0,4,1.00);
+	transform: scale(1.2);
+}
+#netflix a{
+	color: red;
+	text-decoration: none;
+}
+#max{
+	width: 100%;
+	height: 1080px;
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url("../g_streaming/streaming5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#max h5{
+	font-size: 84px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Concert One", sans-serif;
+	text-shadow: 0px 4px 4px #000000;
+	margin-bottom: 30px;
+	transition: 0.5s all ease-in-out;
+}
+#max h5:hover{
+	transform: scale(1.2);
+	color: #002BE7;
+	text-shadow: 0px 0px 10px #000000;
+}
+#max img{
+	margin-bottom: 30px;
+	border-radius: 50px;
+}
+#max p{
+	padding: 20px;
+	width: 300px;
+	background-color: rgba(0,0,0,0.91);
+	color: white;
+	text-align: center;
+	border-radius: 30px;
+	margin-bottom: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	transition: 0.5s all ease-in-out;
+}
+#max p:hover{
+	-webkit-box-shadow: 0px 0px 14px 2px rgba(255,255,255,1.00);
+	box-shadow: 0px 0px 14px 2px rgba(255,255,255,1.00);
+	transform: scale(1.1);
+}
+#max button{
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 30px;
+	background-color: black;
+	font-family: "Concert One", sans-serif;
+	font-size: 32px;
+	border-style: none;
+	transition: 0.5s all ease-in-out;
+}
+#max button:hover{
+	-webkit-box-shadow: 0px 0px 20px 2px #002BE7;
+	box-shadow: 0px 0px 20px 2px #002BE7;
+	transform: scale(1.2);
+}
+#max a{
+	color: #002BE7;
+	text-decoration: none;
+}
+#prime_video{
+	width: 100%;
+	height: 1080px;
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url("../g_streaming/streaming6.jpg");
+}
+#prime_video h5{
+	font-size: 84px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Concert One", sans-serif;
+	text-shadow: 0px 4px 4px #000000;
+	margin-bottom: 30px;
+	transition: 0.5s all ease-in-out;
+}
+#prime_video h5:hover{
+	transform: scale(1.2);
+	color: #1999FE;
+	text-shadow: 0px 0px 10px #000000;
+}
+#prime_video img{
+	margin-bottom: 30px;
+}
+#prime_video p{
+	padding: 20px;
+	width: 300px;
+	background-color: rgba(0,0,0,0.91);
+	color: white;
+	text-align: center;
+	border-radius: 30px;
+	margin-bottom: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	transition: 0.5s all ease-in-out;
+}
+#prime_video p:hover{
+	-webkit-box-shadow: 0px 0px 14px 2px rgba(255,255,255,1.00);
+	box-shadow: 0px 0px 14px 2px rgba(255,255,255,1.00);
+	transform: scale(1.1);
+}
+#prime_video button{
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 30px;
+	background-color: black;
+	font-family: "Concert One", sans-serif;
+	font-size: 32px;
+	border-style: none;
+	transition: 0.5s all ease-in-out;
+}
+#prime_video button:hover{
+	-webkit-box-shadow: 0px 0px 20px 2px #1999FE;
+	box-shadow: 0px 0px 20px 2px #1999FE;
+	transform: scale(1.2);
+}
+#prime_video a{
+	color: #1999FE;
+	text-decoration: none;
+}
+
+/*ACA COMIENZA  - Interna*/
+
+
+
+
+
+
+
+
+
+
+
